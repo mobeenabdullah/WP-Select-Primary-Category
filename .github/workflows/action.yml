@@ -1,4 +1,4 @@
-name: Deploy WP-Select-P-Category to WP.org
+name: Deploy to WordPress.org
 on:
   [push, pull_request]
 jobs:
@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: WordPress Plugin Deployment
-        uses: mobeenabdullah/WP-Select-Primary-Category@master
+      - name: WordPress Plugin Deploy
+        uses: 10up/actions-wordpress/dotorg-plugin-deploy@master
         env:
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
