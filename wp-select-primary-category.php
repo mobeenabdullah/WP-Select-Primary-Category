@@ -4,7 +4,7 @@ Plugin Name: WP Select Primary Category
 Plugin URI: https://wordpress.org/plugins/wp-select-primary-category/
 Description: Custom plugin to select primary category to show content based on that categroy.
 Author: Mobeen Abdullah
-Version: 1.0
+Version: 1.0.1
 Author URI: https://github.com/mobeenabdullah
 */
 

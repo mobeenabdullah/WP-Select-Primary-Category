@@ -74,7 +74,7 @@ class Select_Primary_Category {
     	// if there are categories then create the selectbox options from each category
         if ( ! empty( $post_categories ) ) {
             foreach( $post_categories as $category ) {
-                $html .= '<option value="' . $category->name . '" ' . selected( $primary_category, $category->name, false ) . '>' . $category->name . '</option>';
+                $html .= '<option value="' . $category->name . '" ' . selected( $primary_category, $category->name, false ) . '>' . ucwords($category->name) . '</option>';
             }
         }
         $html .= '</select>';
