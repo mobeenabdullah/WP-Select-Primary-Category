@@ -2,7 +2,7 @@ name: Deploy WP-Select-P-Category to WP.org
 on:
   push:
     tags:
-      - "*"
+        deploy-"*"
 jobs:
   tag:
     name: New tag
