@@ -1,6 +1,0 @@
-name: 'Deploy WP-Select-P-Category to WP.org'
-description: 'Deploy to the WordPress Plugin Repository'
-author: 'Mobeen Abdullah'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
