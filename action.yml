@@ -1,0 +1,4 @@
+name: 'Deploy to WordPress.org'
+description: 'Deploy to the WordPress Plugin Repository'
+author: 'Mobeen Abdullah'
+runs:
