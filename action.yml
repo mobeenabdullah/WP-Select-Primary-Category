@@ -1,3 +1,6 @@
 name: 'WordPress Plugin Deploy'
 description: 'Deploy to the WordPress Plugin Repository'
 author: 'Mobeen Abdullah'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
